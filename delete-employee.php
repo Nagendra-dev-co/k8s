@@ -1,9 +1,9 @@
 <?php
    //connect to database
-   $servername = "localhost";
-   $username = "root";
-   $password = "";
-   $database = "php_employee_management";
+   $servername ="localhost";
+   $username ="root";
+   $password ="";
+   $database ="php";
 
    //Create Connection
    $connection = new mysqli($servername, $username, $password, $database);
