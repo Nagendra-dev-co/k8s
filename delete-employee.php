@@ -1,9 +1,9 @@
 <?php
    //connect to database
-   $servername = "database-1.cdaqmc6max1u.us-east-1.rds.amazonaws.com";
-   $username = "admin";
-   $password = "root12345";
-   $database = "php";
+   $servername = "localhost";
+   $username = "root";
+   $password = "";
+   $database = "php_employee_management";
 
    //Create Connection
    $connection = new mysqli($servername, $username, $password, $database);
